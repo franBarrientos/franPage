@@ -1,0 +1,16 @@
+.boton-negro{
+    display: inline;
+    background: transparent;
+    border: 1px solid $terciario;
+    padding: 1rem 2rem 2rem;
+    &:hover{
+        background-color: $terciario;
+        cursor: pointer;
+    };
+    a{
+        color: $blanco;
+        font-weight: 300;
+        font-size: 2rem;
+    }
+
+};
